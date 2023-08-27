@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="cal.js"></script>
+</head>
+<body>
+
+    <div class="calculator">
+
+
+        <div  id="output" name="display"> </div>
+
+
+        <div class="keys">
+            <button type="button" value="1" onclick = fun(1) class="key">1</button>
+            <button type="button" value="2" onclick = fun(2) class="key">2</button>
+            <button type="button" value="3" onclick = fun(3) class="key">3</button>
+            <button type="button" value="4" onclick = fun(4) class="key">4</button>
+            <button type="button" value="5" onclick = fun(5) class="key">5</button>
+            <button type="button" value="6" onclick = fun(6) class="key">6</button>
+            <button type="button" value="7" onclick = fun(7) class="key">7</button>
+            <button type="button" value="8" onclick = fun(8) class="key">8</button>
+            <button type="button" value="9" onclick = fun(9) class="key">9</button>
+            <button type="button" value="0" onclick = fun(0) class="key">0</button>
+            <button type="button" value="9" onclick = 'fun(".")' class="key">.</button>
+            <button type="button" class="key"></button>
+            <button type="button" value="+" onclick = 'fun("+")' class="op">+</button>
+            <button type="button" value="-" onclick = 'fun("-")' class="op">-</button>
+            <button type="button" value="*" onclick = 'fun("*")' class="op">*</button>
+            <button type="button" value="/" onclick = 'fun("/")' class="op">/</button>
+            <button type="button" value="cc" onclick = clr() class="op">CC</button>
+            <button type="button" value="=" onclick = solve() class="op">=</button>
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>
